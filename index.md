@@ -11,7 +11,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Or just do it like this:
 
-![Programms and components](https://raw.githubusercontent.com/kselnaag/WSL2_Docker_Minikube_inst/main/WSL.png "Programms and components")
+![Programms and components](https://raw.githubusercontent.com/kselnaag/WSL2_Docker_Minikube_inst/gh-pages/WSL.png "Programms and components")
 
 Next go to `cmd` console and use this commands for instalation Linux system on `WSL2`:
 
