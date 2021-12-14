@@ -2,6 +2,8 @@
 
 ## WSL2
 
+[GitHub page](https://kselnaag.github.io/WSL2_Docker_Minikube_inst/ "GitHub page")
+
 First of all you should deactivate `Hyper-V` service and activate `WSL2` service into your windows system. Use `PowerShell` in admin mode:
 ```Power Shell
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor
