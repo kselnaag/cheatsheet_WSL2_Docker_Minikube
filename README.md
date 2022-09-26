@@ -11,7 +11,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 Or just do it like this:
 
-![Programms and components](https://raw.githubusercontent.com/kselnaag/WSL2_Docker_Minikube_inst/gh-pages/WSL.png "Programms and components")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kselnaag/WSL2_Docker_Minikube_inst/gh-pages/WSL.png" alt="Programms and components"/>
+</p>
 
 Next go to `cmd` console, update `WSL` up to 2-nd version and use some commands for instalation Linux system on `WSL2`:
 ```CMD
@@ -45,9 +47,8 @@ sudo apt-get -y install docker-ce
 docker version
 sudo usermod -aG docker $USER
 sudo service docker start
+sudo update-rc.d docker enabled
 service --status-all
-update-rc.d services defaults  			# update-rc.d -f service remove
-source ~/.bashrc 				# || exit ?
 docker run --rm hello-world
 ```
 [Docker official man](https://docs.docker.com/engine/install/ubuntu/)
