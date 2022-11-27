@@ -22,8 +22,8 @@ wsl --update
 wsl --set-default-version 2
 wsl --list --verbose
 wsl --list --online
-wsl --install -d Ubuntu-20.04			# wsl --unregister Ubuntu-20.04 (delete)
-wsl --set-default Ubuntu-20.04
+wsl --install -d Ubuntu-20.04			# wsl --unregister Ubuntu-20.04 (delete OS)
+wsl --set-default Ubuntu-20.04    # wsl --shutdown (reboot wsl system)
 ```
 #### Official Microsoft mans:
 [Hyper-V disable](https://docs.microsoft.com/ru-ru/troubleshoot/windows-client/application-management/virtualization-apps-not-work-with-hyper-v) | 
