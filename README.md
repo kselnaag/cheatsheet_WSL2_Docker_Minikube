@@ -22,7 +22,7 @@ wsl --update
 wsl --set-default-version 2
 wsl --list --verbose
 wsl --list --online
-wsl --install -d Ubuntu-20.04			# wsl --unregister Ubuntu-20.04 (delete OS)
+wsl --install -d Ubuntu-20.04     # wsl --unregister Ubuntu-20.04 (delete OS)
 wsl --set-default Ubuntu-20.04    # wsl --shutdown (reboot wsl system)
 ```
 #### Official Microsoft mans:
